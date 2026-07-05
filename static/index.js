@@ -617,7 +617,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     w.saveClickBeforeImage = function() {
-        const img = document.getElementById('click-before-image');
+        const img = document.getElementById('nnkclick-before-image');
         saveImage(img, r => {
             clickBeforeStyle.html(`
                 .t1, .t2, .t3, .t4, .t5 {
@@ -632,7 +632,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     w.saveClickAfterImage = function() {
-        const img = document.getElementById('click-after-image');
+        const img = document.getElementById('nnkclick-after-image');
         saveImage(img, r => {
             clickAfterStyle.html(`
                 .tt1, .tt2, .tt3, .tt4, .tt5 {
